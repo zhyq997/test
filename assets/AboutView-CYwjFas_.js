@@ -1,0 +1,1 @@
+import{r as t,h as l,a as s}from"./index-HrgJlWGe.js";const o=t(1),e=s({count:o});console.log(e.count===o.value);o.value++;console.log(o.value);console.log(e.count);e.count++;console.log(e.count);console.log(o.value);const a={props:{msg:{type:String,default:"About Page"}},setup(n){const c=t(3);return()=>l("div",n.msg+c.value)}};export{a as default};
